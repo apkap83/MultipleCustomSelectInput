@@ -1,7 +1,7 @@
 initializeCustomSelects();
 
 function initializeCustomSelects() {
-  const customSelects = document.querySelectorAll(".my-custom-select");
+  const customSelects = document.querySelectorAll(".custom-select-wrapper");
 
   customSelects.forEach((select) => {
     initializeSelect(select);
